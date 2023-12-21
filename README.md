@@ -2,7 +2,6 @@ Arch post install scripts, and config files
 
 - enable touchpad
 50-libinput.conf -> /etc/X11/xorg.conf.d
-00-keyboard.conf -> /etc/X11/xorg.conf.d
 
 TODO:
 - bluetooth applet (blueberry-tray)
@@ -21,3 +20,7 @@ TODO:
 - does keyboard work on its own or did i install a program? (list of installed packages in repo)
 - go over programs in scripts
 - doas ili sudo?
+
+
+Journal:
+- Disabled horizontal in i3 conf because of colide with hjkl
