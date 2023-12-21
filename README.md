@@ -20,6 +20,7 @@ TODO:
 - does keyboard work on its own or did i install a program? (list of installed packages in repo)
 - go over programs in scripts
 - doas ili sudo?
+- what about fonts? what should i install to be safe?
 
 
 Journal:
