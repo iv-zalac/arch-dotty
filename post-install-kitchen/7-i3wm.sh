@@ -7,7 +7,7 @@ PKGS=(
         'i3blocks'          
         'i3lock'           
         'dmenu'     
-	'picom'
+	'picom' # Solve tearing
 )
 
 for PKG in "${PKGS[@]}"; do

@@ -45,27 +45,21 @@ PKGS=(
 
 
     # dev
-    'clang'                 # C Lang compiler
-    'cmake'                 # Cross-platform open-source make system
     'git'                   # Version control system
     'gcc'                   # C/C++ compiler
     'glibc'                 # C libraries
-    'nodejs'                # Javascript runtime environment
-    'npm'                   # Node package manager
     'python'                # Scripting language
 
     # web
     'chromium'              # Web browser
     'firefox'               # Web browser
-    'filezilla'             # FTP Client
-    'flashplugin'           # Flash
 
     # communication
     'discord'
 
     # video/capture
     'simplescreenrecorder'  # Record your screen
-    'vlc'                   # Video player
+    'mpv'                   # Video player
 
     # programs
     'gimp'                  # GNU Image Manipulation Program
