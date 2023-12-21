@@ -7,6 +7,7 @@ PKGS=(
         'i3blocks'          
         'i3lock'           
         'dmenu'     
+	'picom'
 )
 
 for PKG in "${PKGS[@]}"; do
