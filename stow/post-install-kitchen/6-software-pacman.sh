@@ -14,28 +14,34 @@ PKGS=(
     'zsh'                   # ZSH shell
     'zsh-completions'       # Tab completion for ZSH
     'alacritty'        	    # Terminal emulator
-    'tmux'
 
     # system monitoring
     'htop'                  # Process viewer
     'gtop'                  # System monitoring via terminal
     'neofetch'              # Shows system info when you launch terminal
-    'btop'                  # Arcade top
     #'hardinfo'              # Hardware info app
 
     # network utility
     'curl'                  # Remote content retrieval
     'wget'                  # Remote content retrieval
+    'gufw'                  # Firewall manager
+    'speedtest-cli'         # Internet speed via terminal
 
-    # image viewer
-    'nitrogen'                  
+    # wallpaper/image viewer
+    'feh'                   # Terminal-based image viewer/manipulator, wallpaper
     
     # battery
     'tlp'                   # Advanced laptop power management
     
 
+    # disk utility
+    'udisks2'                # Auto-mounter
+    'exfat-utils'           # Mount exFat drives
+    'parted'                # Disk utility
+
     # file manager
     'nemo'                  # Filesystem browser
+    'ranger'                # cli based file manager
 
 
     # dev
@@ -54,10 +60,10 @@ PKGS=(
     # video/capture
     'simplescreenrecorder'  # Record your screen
     'mpv'                   # Video player
-    'asciinema'
 
     # programs
     'gimp'                  # GNU Image Manipulation Program
+    'inkscape'              # Vector image creation app
     'galculator'            # Gnome calculator
     'libreoffice-fresh'     # Libre office with extra features
     'mupdf'                  # PDF viewer
