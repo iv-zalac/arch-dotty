@@ -248,4 +248,4 @@ exec xset r rate 200 50
 exec volumeicon
 
 # Bluetooth icon 
-exec blueberry
+exec blueberry-tray
