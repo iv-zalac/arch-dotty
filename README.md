@@ -18,7 +18,7 @@ TODO:
 - firewall? ne treba portovi su zatvoreni
 - best way to manage dotfiles? stow dautor
 - screen lock software? or display manager (xsecurelock)
-- auto mount secondary storage
+- auto mount secondary storage (mount)
 - configure two different layouts https://wiki.archlinux.org/title/Xorg/Keyboard_configuration#Switching_between_keyboard_layouts
 - does keyboard work on its own or did i install a program? (list of installed packages in repo)
 - go over programs in scripts

@@ -2,40 +2,6 @@ echo
 echo "FINAL SETUP AND CONFIGURATION"
 
 
-echo
-echo "Configuring LTS Kernel as a secondary boot option"
-
-sudo cp /boot/loader/entries/arch.conf /boot/loader/entries/arch-lts.conf
-sudo sed -i 's|Arch Linux|Arch Linux LTS Kernel|g' /boot/loader/entries/arch-lts.conf
-sudo sed -i 's|vmlinuz-linux|vmlinuz-linux-lts|g' /boot/loader/entries/arch-lts.conf
-sudo sed -i 's|initramfs-linux.img|initramfs-linux-lts.img|g' /boot/loader/entries/arch-lts.conf
-
-# ------------------------------------------------------------------------
-#
-#echo
-#echo "Configuring MAKEPKG to use all 8 cores"
-#
-#sudo sed -i -e 's|[#]*MAKEFLAGS=.*|MAKEFLAGS="-j$(nproc)"|g' makepkg.conf
-#sudo sed -i -e 's|[#]*COMPRESSXZ=.*|COMPRESSXZ=(xz -c -T 8 -z -)|g' makepkg.conf
-#
-# ------------------------------------------------------------------------
-
-echo
-echo "Setting laptop lid close to suspend"
-
-sudo sed -i -e 's|[# ]*HandleLidSwitch[ ]*=[ ]*.*|HandleLidSwitch=suspend|g' /etc/systemd/logind.conf
-
-# ------------------------------------------------------------------------
-
-echo
-echo "Disabling buggy cursor inheritance"
-
-# When you boot with multiple monitors the cursor can look huge. This fixes it.
-sudo cat <<EOF > /usr/share/icons/default/index.theme
-[Icon Theme]
-#Inherits=Theme
-EOF
-
 # ------------------------------------------------------------------------
 
 echo
