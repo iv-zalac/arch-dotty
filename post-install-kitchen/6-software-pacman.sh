@@ -77,6 +77,8 @@ PKGS=(
     'mupdf'                  # PDF viewer
     'okular'
     'keepassxc'
+    'maim'		#screenshot
+    'xclip'		#screenshot
 
 )
 
