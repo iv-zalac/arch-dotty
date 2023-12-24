@@ -79,6 +79,7 @@ PKGS=(
     'keepassxc'
     'maim'		#screenshot
     'xclip'		#screenshot
+    'unclutter'		#hide cursor when inactive
 
 )
 
