@@ -69,6 +69,7 @@ PKGS=(
     "noto-fonts-cjk" 
     "noto-fonts-emoji" 
     "noto-fonts-extra"
+    "ttf-ubuntu-nerd"
 
     # programs
     'gimp'                  # GNU Image Manipulation Program
