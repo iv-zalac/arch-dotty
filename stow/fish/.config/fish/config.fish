@@ -3,6 +3,7 @@ if status is-interactive
 end
 
 if status is-login
+  fish_add_path ~/.screenlayout/
     if test -z "$DISPLAY" -a "$XDG_VTNR" = 1
         exec startx -- -keeptty
     end
