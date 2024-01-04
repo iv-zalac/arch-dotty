@@ -225,7 +225,7 @@ bindsym $mod+b exec firefox
 # assign [class="Code"] $ws2
 
 # Nitrogen 
-# exec --no-startup-id nitrogen --restore
+exec --no-startup-id nitrogen --restore
 
 # Picom transparency
 # https://forum.endeavouros.com/t/how-to-transparent-terminal-windows-on-i3-wm/11956
