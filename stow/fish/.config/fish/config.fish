@@ -3,6 +3,7 @@ if status is-interactive
 end
 
 if status is-login
+  fish_add_path ~/scripts/
   fish_add_path ~/.screenlayout/
   fish_add_path $HOME/.cargo/bin
     if test -z "$DISPLAY" -a "$XDG_VTNR" = 1
