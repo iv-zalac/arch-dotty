@@ -166,7 +166,8 @@ mode "exit: [h]ide, [l]ogout, [r]eboot, [s]hutdown" {
 
   bindsym s exec systemctl poweroff
 
-  bindsym h exec xsecurelock
+  # mode "default" to exit mode menu after key press
+  bindsym h exec xsecurelock ; mode "default"
 
   bindsym Escape mode "default"
 
