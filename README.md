@@ -31,6 +31,10 @@ TODO:
 - scratchpad terminal za i3
 - setup firefox smooth scrolling (https://wiki.archlinux.org/title/Firefox/Tweaks) u /etc/environment 3.2 pixel perfect scrollig
 
+- crontab
+crontab -e
+*/10 * * * * ~/scripts/low_battery.sh
+
 
 Journal:
 - Disabled horizontal in i3 conf because of colide with hjkl

@@ -13,12 +13,14 @@ PKGS=(
     'sudo'
     'man-db'
     'man-pages'
+    'gawk'
 
     # system monitoring
     'htop'                  # Process viewer
     'gtop'                  # System monitoring via terminal
     'neofetch'              # Shows system info when you launch terminal
     'btop'                  # Arcade top
+    'acpi'                  # Battery status 
 
     # network utility
     'curl'                  # Remote content retrieval
@@ -81,6 +83,7 @@ PKGS=(
     'maim'		#screenshot
     'xclip'		#screenshot
     'unclutter'		#hide cursor when inactive
+    'cronie' #crontab
 
 )
 
